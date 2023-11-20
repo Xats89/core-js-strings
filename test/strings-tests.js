@@ -22,7 +22,7 @@ describe('strings-tasks', () => {
     // eslint-disable-next-line no-new-wrappers
     assert.equal(tasks.isString(new String('test')), true);
     // eslint-disable-next-line no-new-wrappers
-    assert.equal(tasks.isString(new String('')), true);
+    assert.equal(tasks.isString(new String(' ')), true);
     // eslint-disable-next-line no-new-wrappers
     assert.equal(tasks.isString(new String('123')), true);
 
